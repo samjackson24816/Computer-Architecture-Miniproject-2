@@ -23,7 +23,6 @@ module top_tb;
     end
 
     always begin
-        // 12 MHz clock: period = 83.33 ns -> half-period = 41.67 ns (~42 ns)
         #42;
         clk = ~clk;
     end
